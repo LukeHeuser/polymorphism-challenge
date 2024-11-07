@@ -14,11 +14,11 @@ public class ElectricCar extends Car{
 
     @Override
     public void startEngine() {
-        System.out.printf("There is no engine! The car is electric and is on with a batter size of %d", batterySize);
+        System.out.printf("There is no engine! The car is electric and is on with a batter size of %d%n", batterySize);
     }
 
     @Override
     protected void runEngine() {
-        System.out.println("There is no engine! The battery is running.");
+        System.out.println("There is no engine! The battery is running with an average miles per charge of " + avgMilesPerCharge);
     }
 }

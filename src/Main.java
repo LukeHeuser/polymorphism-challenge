@@ -11,7 +11,7 @@ public class Main {
         Car brokenCar = new GasPoweredCar("F150", "Ford", 8, 0);
         gasPoweredCarStats((GasPoweredCar) brokenCar);
 
-        Car tesla = new ElectricCar("Tesla", "Model Y");
+        Car tesla = new ElectricCar("Tesla", "Model Y", 350, 30_000);
         runRace(tesla);
 
         Car toyota = new HybridCar("Toyota", "Prius", 78.56, 15_000, 4);

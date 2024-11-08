@@ -16,6 +16,7 @@ public class HybridCar extends Car {
     @Override
     public void startEngine() {
         System.out.printf("The hybrid engine is running on all %d cylinders!%n", cylinders);
+        System.out.printf("The battery is on with it's current size of %d%n.", batterySize);
     }
 
     @Override

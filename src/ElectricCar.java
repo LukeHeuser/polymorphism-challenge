@@ -2,7 +2,6 @@ public class ElectricCar extends Car{
     private double avgMilesPerCharge;
     private int batterySize;
 
-
     public ElectricCar(String title, String description) {
         super(title, description);
     }
